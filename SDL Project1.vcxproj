@@ -19,11 +19,16 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp" />
-    <ClCompile Include="SDLFirstWindow.cpp" />
+    <ClInclude Include="Headers\SDLFirstWindow.h" />
+    <ClInclude Include="Headers\SDLImageOpen.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="SDLFirstWindow.h" />
+    <ClCompile Include="Source\Main.cpp" />
+    <ClCompile Include="Source\SDLFirstWindow.cpp" />
+    <ClCompile Include="Source\SDLImageOpen.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\hello_world.bmp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
