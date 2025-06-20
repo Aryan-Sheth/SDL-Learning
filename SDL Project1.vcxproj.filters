@@ -18,12 +18,12 @@
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SDL_1.cpp">
+    <ClCompile Include="SDLFirstWindow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="SDL_1.h">
+    <ClInclude Include="SDLFirstWindow.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

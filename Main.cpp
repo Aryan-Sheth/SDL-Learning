@@ -1,8 +1,8 @@
-#include "SDL_1.h"
+#include "SDLFirstWindow.h"
 
 int main(int argc, char* args[])
 {
-	SDL_1* sdlProg = new SDL_1();
+	SDLFirstWindow* sdlProg = new SDLFirstWindow();
 	sdlProg->Run();
 	return 0;
 }
