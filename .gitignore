@@ -1,0 +1,75 @@
+# Build Folders
+[Bb]in/
+[Oo]bj/
+Build/
+Debug/
+Release/
+x64/
+x86/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# C++ specific
+*.obj
+*.pch
+*.idb
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.exe
+*.dll
+*.manifest
+*.log
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+*.old
+*.sdf
+*.opensdf
+
+# Precompiled Headers
+*.gch
+
+# Generated files
+*.res
+*.tlh
+*.tli
+
+# CMake (if used)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build/
+
+# Qt Creator (if used)
+*.pro.user
+*.qmake.stash
+
+# Crash dumps
+*.dmp
+
+# Others
+*.ncb
+*.aps
+*.sbr
+ipch/
+*.ipch
+
+# Folder-specific ignores
+*.VC.db
+*.VC.VC.opendb
+
+Ignore all executables or libraries from root
+*.exe
+*.dll
+*.lib
+*.pdb
